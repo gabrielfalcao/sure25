@@ -1,0 +1,19 @@
+[package]
+name = "sure25"
+version = "0.0.1"
+description = "sure25 hashing algorithm"
+readme = "README.md"
+edition = "2021"
+repository = "https://github.com/gabrielfalcao/sure25"
+license = "CAL-1.0"
+authors = ["Gabriel DeMoura <gabrielteratos@gmail.com>"]
+keywords = ["crypto", "hash", "digest"]
+categories = ["cryptography", "no-std"]
+
+[lib]
+name = "sure25"
+path = "sure25/lib.rs"
+bench = false
+
+[dev-dependencies]
+hex = "0.4.3"
