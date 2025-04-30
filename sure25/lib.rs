@@ -29,12 +29,12 @@ impl Hasher {
         hasher
     }
 
-    pub fn initialize(&mut self) {
+    fn initialize(&mut self) {
         self.state = [0u8; 25];
         self.tick();
     }
 
-    pub fn tick(&mut self) {
+    fn tick(&mut self) {
         for index in 0..25 {
             self.index += 1;
             let flip = if index > 0 && index % 2 == 1 {
@@ -56,7 +56,7 @@ impl Hasher {
         }
     }
 
-    pub fn next_round(&mut self) {
+    fn next_round(&mut self) {
         self.round = if self.round > TOTAL_ROUNDS {
             self.round % TOTAL_ROUNDS
         } else {

@@ -1,4 +1,3 @@
-#![allow(unused)]
 pub mod rounds;
 pub use rounds::{
     ROUND1, ROUND10, ROUND100, ROUND101, ROUND102, ROUND103, ROUND104, ROUND105, ROUND106,
