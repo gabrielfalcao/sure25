@@ -1,6 +1,6 @@
 [package]
 name = "sure25"
-version = "0.0.2"
+version = "0.0.3"
 description = "sure25 hashing algorithm"
 readme = "README.md"
 edition = "2021"
