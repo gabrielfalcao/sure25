@@ -1,8 +1,10 @@
 # sure25 hashing algorithm
 
 
-# Example
-```
+### Example
+
+
+```rust
 use sure25::Hasher;
 
 let mut hasher = Hasher::new();
