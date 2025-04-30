@@ -1,4 +1,4 @@
-pub(crate) mod consts;
+pub mod consts;
 pub use consts::{ROUNDS, TOTAL_ROUNDS};
 
 /// # Example
